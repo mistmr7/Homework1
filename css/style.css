@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+h1 {
+    font-family: 'Exo-2', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: honeydew;
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: verdana;
+    font-weight: normal;
+    text-align: center;
+    color: honeydew;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+
+h3 {
+    font-family: 'Exo-2', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: honeydew;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+p {
+    Font-family: 'Exo-2', sans-serif;
+    font-weight: normal;
+    text-align: left;
+    color: honeydew;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 400px;
+    border-radius: 50px;
+}
+
+.content {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.content1 {
+    margin: 0 auto;
+    display: flex;
+    width: 960px;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+    background: url('../img/header-bg.png');
+    height: 80px;
+    position: fixed;
+    margin-top: 30px;
+}
+
+nav {
+    width: 400px;
+    float: right;
+    margin-top: 20px;
+    margin-right: -100px;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+ }
+
+li {
+    margin-top: 10px;
+    float: left;
+    padding-left: 20px;
+}
+
+li a {
+    color: honeydew;
+    opacity: 0.6;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: "Wellfleet";
+}
+
+li a:hover {
+    color: honeydew;
+    opacity: 1;
+}
+
+#linkedin {
+    color: honeydew;
+    text-decoration: none;
+    float: left;
+    font-size: 30px;
+    font-family: "Wellfleet";
+    font-weight: bold;
+    margin-left: -100px;
+    margin-top: 20px;
+}
+
+#linkedin a:visited {
+    color: honeydew;
+}
+
+#linkedin a:hover {
+    color: red;
+}
+
+.content-container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#profile {
+    background: url('../img/slide1.png') 50% 0 no-repeat fixed;
+    color: honeydew;
+    height:600px;
+    margin: 0;
+    padding:200px 0;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#portfolio {
+    background: url('../img/slide3.jpg') 50% 0 no-repeat fixed;
+    color: honeydew;
+    height:600px;
+    margin: 0;
+    padding:200px 0;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#contact {
+    background: url('../img/slide5.png') 50% 0 no-repeat fixed;
+    color: honeydew;
+    height:600px;
+    margin: 0;
+    padding:200px 0;
+    background-size: cover;
+    overflow: hidden;
+}
+.box {
+    width: 250px;
+    margin: 5px;
+    height: 20vh;
+}
+.box1 {background-color:red;}
+.box2 {background-color:green;}
+.box3 {background-color:blue;}
+.box4 {background-color:hotpink;}
+.box5 {background-color:yellow;}
+.box6 {background-color:purple;}
+
+form {
+    font-size: 20px;
+    font-family: 'Wellfleet';
+}
+
+textarea {
+    text-align: left;
+}
+
+input[type=submit] {
+    padding: 5px 15px;
+    background: honeydew;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 5px;
+}
